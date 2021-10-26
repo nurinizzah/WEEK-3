@@ -1,0 +1,33 @@
+package numericalData;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double sem1 = 3.33;
+		double sem2 = 3.33;
+		double cgpa;
+		String Name;
+		String College;
+		String MatricNumber;
+		
+		Name = "Nurin Izzah Binti Ishak";
+		College = "Kolej Matrikulasi Perlis";
+		MatricNumber = "MS2014102913";
+		
+		
+		System.out.println("Name: "+Name);
+		System.out.println("College: "+College);
+		System.out.println("Matric Number: "+MatricNumber);
+		
+		cgpa = (sem1+sem2)/2;
+		
+		System.out.println("GPA Semester 1: "+ sem1);
+		System.out.println("GPA Semester 2: "+ sem2);
+		System.out.print("CGPA is: " +cgpa);
+			
+
+	}
+
+}
